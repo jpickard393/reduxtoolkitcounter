@@ -16,7 +16,7 @@ function App() {
       {/* dispatch the increment action to the reducer which performs the spcified change */}
       <button onClick={()=> dispatch(increment())}>Incement</button>
       <button onClick={()=> dispatch(decrement())}>Decrement</button>
-      <button onClick={()=> dispatch(incrementByAmount(10))}>Increment Bby 10</button>
+      <button onClick={()=> dispatch(incrementByAmount(10))}>Increment by 10</button>
     </div>
   );
 }
